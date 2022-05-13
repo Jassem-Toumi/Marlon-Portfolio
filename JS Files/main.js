@@ -7,7 +7,7 @@ if(this.scrollY >= 50) header.classList.add ('scroll-header'); else header.class
 window.addEventListener ('scroll', scrollHeader)
 
 /*=============== SERVICES MODAL ===============*/
-const modalViews = document.querySelectorAll('.services__modal');
+const modalViews = document.querySelectorAll('.service-cards');
 const modalBtns = document.querySelectorAll('.services__button');
 const modalClose = document.querySelectorAll('.services__modal-close');
 
@@ -151,9 +151,9 @@ sr.reveal(`.skills__box`, {delay:350, origin: 'bottom'})
 
 //  SERVICES
 
-sr.reveal(`.services__card`, {delay:280, origin: 'bottom'})
-sr.reveal(`.services__title`, {delay:300, origin: 'bottom'})
-sr.reveal(`.services__button`, {delay:350, origin: 'bottom'})
+// sr.reveal(`.services__card`, {delay:280, origin: 'bottom'})
+// sr.reveal(`.services__title`, {delay:300, origin: 'bottom'})
+// sr.reveal(`.services__button`, {delay:350, origin: 'bottom'})
 
 // WORK
 
